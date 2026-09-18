@@ -1,0 +1,99 @@
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" routerLink="/" (click)="closeMenu()">
+      <strong>Beatriz Ontivero</strong>
+    </a>
+
+    <!-- Burger para móvil -->
+    <button
+      type="button"
+      class="navbar-burger"
+      [class.is-active]="isMenuOpen"
+      (click)="toggleMenu()"
+      [attr.aria-expanded]="isMenuOpen"
+      aria-label="menu"
+    >
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <div class="navbar-menu" [class.is-active]="isMenuOpen">
+    <div class="navbar-start">
+      <a
+        class="navbar-item"
+        routerLink="/"
+        (click)="closeMenu()"
+        routerLinkActive="is-active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        {{ 'NAV.HOME' | translate }}
+      </a>
+      <a class="navbar-item" routerLink="/about" (click)="closeMenu()" routerLinkActive="is-active">
+        {{ 'NAV.ABOUT' | translate }}
+      </a>
+      <a
+        class="navbar-item"
+        routerLink="/experience"
+        (click)="closeMenu()"
+        routerLinkActive="is-active"
+      >
+        {{ 'NAV.EXPERIENCE' | translate }}
+      </a>
+      <a
+        class="navbar-item"
+        routerLink="/projects"
+        (click)="closeMenu()"
+        routerLinkActive="is-active"
+      >
+        {{ 'NAV.PROJECTS' | translate }}
+      </a>
+      <a
+        class="navbar-item"
+        routerLink="/certifications"
+        (click)="closeMenu()"
+        routerLinkActive="is-active"
+      >
+        {{ 'NAV.CERTIFICATIONS' | translate }}
+      </a>
+      <a
+        class="navbar-item"
+        routerLink="/skills"
+        (click)="closeMenu()"
+        routerLinkActive="is-active"
+      >
+        {{ 'NAV.SKILLS' | translate }}
+      </a>
+      <a
+        class="navbar-item"
+        routerLink="/contact"
+        (click)="closeMenu()"
+        routerLinkActive="is-active"
+      >
+        {{ 'NAV.CONTACT' | translate }}
+      </a>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <button
+            class="button is-small"
+            [class.is-primary]="translate.currentLang === 'es'"
+            (click)="switchLang('es')"
+          >
+            ES
+          </button>
+          <button
+            class="button is-small"
+            [class.is-primary]="translate.currentLang === 'en'"
+            (click)="switchLang('en')"
+          >
+            EN
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

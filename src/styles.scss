@@ -1,0 +1,50 @@
+$primary: #00d1b2;
+$link: #00d1b2;
+$family-primary: 'Poppins', 'Helvetica Neue', sans-serif;
+
+@use 'bulma/bulma';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 3.25rem;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+main {
+  position: relative;
+  z-index: 0;
+}
+
+.section {
+  min-height: 70vh;
+}
+
+.owl-carousel {
+  width: 100%;
+}
+
+.owl-carousel .owl-nav button {
+  cursor: pointer;
+}
+
+.owl-carousel .owl-stage {
+  display: flex;
+}
+
+.navbar {
+  z-index: 1000;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(0, 209, 178, 0.55);
+  outline-offset: 2px;
+}

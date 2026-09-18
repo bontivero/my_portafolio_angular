@@ -1,0 +1,234 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "ABOUT": "About",
+    "EXPERIENCE": "Experience",
+    "PROJECTS": "Projects",
+    "CERTIFICATIONS": "Certifications",
+    "SKILLS": "Skills",
+    "CONTACT": "Contact",
+    "MENU": "Menu"
+  },
+  "HOME": {
+    "GREETING": "Hi, I'm",
+    "SUBTITLE": "8 years turning data and processes into robust solutions",
+    "CTA_PROJECTS": "View projects",
+    "CTA_CONTACT": "Contact me",
+    "EXPERIENCE": "years of experience"
+  },
+  "ABOUT": {
+    "TITLE": "About me",
+    "NATIONALITY": "Nationality",
+    "LOCATION": "Location",
+    "LANGUAGES": "Languages",
+    "SPANISH_NATIVE": "Spanish (Native)",
+    "ENGLISH_LEVEL": "English (B2)",
+    "EDUCATION": "Academic background",
+    "PROFILE_ALT": "Profile photo"
+  },
+  "EXPERIENCE": {
+    "TITLE": "Work experience",
+    "PRESENT": "Present"
+  },
+  "PROJECTS": {
+    "TITLE": "Featured projects",
+    "TECHNOLOGIES": "Technologies",
+    "VIEW_CODE": "View project"
+  },
+  "CERTIFICATIONS": {
+    "TITLE": "Certifications & training",
+    "ISSUED_BY": "Issued by",
+    "VIEW": "View certificate",
+    "AWARDS": "Awards and distinctions"
+  },
+  "SKILLS": {
+    "TITLE": "Technical skills"
+  },
+  "CONTACT": {
+    "TITLE": "Contact",
+    "EMAIL": "Email",
+    "PHONE": "Phone",
+    "LINKEDIN": "LinkedIn",
+    "ADDRESS": "Address",
+    "FORM_NAME": "Name",
+    "FORM_EMAIL": "Your email",
+    "FORM_MESSAGE": "Message",
+    "FORM_SEND": "Send message",
+    "REQUIRED": "This field is required.",
+    "INVALID_EMAIL": "Enter a valid email address.",
+    "MAIL_SUBJECT": "Contact from the portfolio",
+    "MAIL_NAME": "Name",
+    "MAIL_EMAIL": "Email"
+  },
+  "FOOTER": {
+    "RIGHTS": "All rights reserved.",
+    "MADE_WITH": "Made with Angular and Bulma"
+  },
+  "APP": {
+    "LOADING": "Loading..."
+  },
+  "DATA": {
+    "PERSONAL": {
+      "JOB_TITLE": "Engineer / Developer",
+      "ADDRESS": "Madrid, Spain",
+      "NATIONALITY": "Cuban · residence and work permit in Spain",
+      "SUMMARY": "Engineer/Developer with 8 years of professional experience, specialized in full-stack development and data engineering. Advanced knowledge of Python (Django, FastAPI) and Java, with experience in web development, ERP (Odoo), desktop applications, and frontend development with Angular. Strong background in relational databases (Oracle, PostgreSQL, SQLite), automation with Bash/PL/SQL, orchestration with Docker, and version control with Git/GitHub, with solid experience in Linux and Windows environments. I complement my professional career with personal projects that strengthen my Big Data and MLOps profile: development of classifiers and pipelines with PySpark/Spark MLlib, model lifecycle management with MLflow, deployment of predictive APIs with FastAPI, and continuous integration automation with GitHub Actions."
+    },
+    "EXPERIENCE": [
+      {
+        "position": "Senior B Specialist in Computer Science",
+        "company": "Development and Architecture Department, ETECSA",
+        "location": "Havana, Cuba",
+        "tasks": [
+          "Led and mentored a team of development specialists.",
+          "Designed, developed, and implemented complex ETL processes to integrate data from multiple sources.",
+          "Used PL/SQL for stored procedures, functions, and ETL process automation scripts.",
+          "Designed and implemented ETL process improvements to ensure data accuracy and efficiency.",
+          "Developed advanced Python and Bash scripts to interpret and modify hexadecimal binary files and perform deep, automated, efficient, and configurable cleanups.",
+          "Developed a system to manage a mediation platform using Django, FastAPI, Nginx, and JavaScript.",
+          "Studied and implemented database optimization and migration from Oracle to PostgreSQL.",
+          "Planned and implemented an optimization plan for the mediation flow and an Oracle database.",
+          "Developed Bash scripts to retrieve information and generate CDR reports from large data volumes.",
+          "Level 3 support: consulted on and resolved complex incidents that Level 2 could not resolve."
+        ]
+      },
+      {
+        "position": "Senior B Specialist in Computer Science",
+        "company": "Platform Management Department, ETECSA",
+        "location": "Havana, Cuba",
+        "tasks": [
+          "Led and mentored a multi-function team of specialists.",
+          "Developed ETL processes in PL/SQL and Python scripts to interpret and modify hexadecimal binary files.",
+          "Developed a system to manage a mediation platform using Django, FastAPI, Nginx, and JavaScript.",
+          "Managed tickets and prepared and analyzed traffic statistics.",
+          "Designed, developed, and implemented complex ETL processes to integrate data from multiple sources.",
+          "Maintained and improved ETL processes to ensure data accuracy and efficiency.",
+          "Troubleshot and resolved technical issues.",
+          "Collaborated with development and operations teams to integrate ETL processes into the IT ecosystem."
+        ]
+      },
+      {
+        "position": "B Specialist in Computer Science",
+        "company": "Platform Management Department, ETECSA",
+        "location": "Havana, Cuba",
+        "tasks": [
+          "Designed, developed, and implemented complex ETL processes to integrate data from multiple sources.",
+          "Developed stored procedures, functions, and PL/SQL scripts to automate ETL tasks.",
+          "Maintained and improved ETL processes to ensure data accuracy and efficiency.",
+          "Managed business support platforms.",
+          "Troubleshot issues and investigated their root causes.",
+          "Level 2 support: ticket management, preparation and analysis of traffic statistics, and incident resolution."
+        ]
+      },
+      {
+        "position": "B Specialist in Computer Science",
+        "company": "National Directorate of ACRC",
+        "location": "Havana, Cuba",
+        "tasks": [
+          "Administered networks and systems: Debian GNU/Linux, Windows, Windows Server, DHCP, DNS, Squid, Zimbra, Openfire, Kerio Control, PFSense, Active Directory, and Proxmox.",
+          "Analyzed logs with SquidAnalyzer and ELK (Elasticsearch, Logstash, Kibana).",
+          "Managed backups with FreeBSD and Proxmox Backup Server.",
+          "Maintained the organization's website with Drupal and managed social media.",
+          "Administered the ETES financial accounting system and participated in information security, including the Information Security Plan.",
+          "Developed desktop systems with Java/NetBeans and Python, and web applications with Django.",
+          "Managed SQLite and PostgreSQL databases and developed Android applications."
+        ]
+      }
+    ],
+    "EDUCATION": [
+      {
+        "degree": "Computer Science Engineering",
+        "institution": "University of Informatics Sciences (UCI)",
+        "location": "Havana, Cuba"
+      }
+    ],
+    "CERTIFICATIONS": [
+      {
+        "name": "Basic Python Programming",
+        "issuer": "DESOFT",
+        "mode": "Project-based"
+      },
+      {
+        "name": "Website Development with Django",
+        "issuer": "DESOFT",
+        "mode": "Project-based"
+      },
+      {
+        "name": "Level 3: Database Management Systems",
+        "issuer": "FUNDAE",
+        "mode": "Online"
+      },
+      {
+        "name": "Level 3: Agile Methodologies",
+        "issuer": "FUNDAE",
+        "mode": "Online"
+      }
+    ],
+    "PROJECTS": [
+      {
+        "title": "Personal Portfolio",
+        "description": "Personal website to showcase projects and professional experience, with authentication, real-time database, and Firebase hosting. Responsive design and performance optimization with Angular.",
+        "highlight": "Responsive web portfolio"
+      },
+      {
+        "title": "Iris Flower Classifier",
+        "description": "Iris flower classifier using PySpark MLlib and Logistic Regression. Includes a REST API with FastAPI for real-time predictions and model lifecycle management with MLflow.",
+        "highlight": "Automated CI/CD"
+      },
+      {
+        "title": "Odoo Module for Craft Brewery",
+        "description": "Odoo module for managing a craft brewery, extending MRP, Inventory, Sales, POS, eCommerce, CRM, and Accounting. Includes recipes, batches, fermentation tanks, and quality control.",
+        "highlight": "End-to-end process traceability"
+      },
+      {
+        "title": "Old File Cleanup Script",
+        "description": "Configurable script to automatically clean old files using filters by date, file type, and filename patterns, optimized for Linux and Windows and large data volumes.",
+        "highlight": "Configurable automation"
+      },
+      {
+        "title": "CDR Report Tool",
+        "description": "Tool for generating CDR (Call Detail Records) reports, processing hexadecimal binary files, and integrating data from multiple sources through ETL processes.",
+        "highlight": "Large-volume data processing"
+      }
+    ],
+    "AWARDS": [
+      {
+        "title": "Certificate of Achievement for the Level 3: Database Management Systems course"
+      },
+      {
+        "title": "Outstanding Recognition for attitude and performance during 2024"
+      },
+      {
+        "title": "Certificate for being recognized as an Outstanding Employee in the Business Support Platforms Directorate in 2023"
+      },
+      {
+        "title": "Recognition for contribution and dedication to the implementation of the vIMS project"
+      }
+    ],
+    "SKILLS": {
+      "BACKEND": "Backend & languages",
+      "FRONTEND": "Frontend",
+      "DATA": "Data & Big Data",
+      "DEVOPS": "DevOps, tools & infrastructure",
+      "ERP": "ERP & other",
+      "PROFESSIONAL": "Professional skills",
+      "PROFESSIONAL_ITEMS": [
+        "Teamwork",
+        "Development team leadership",
+        "Responsibility",
+        "Organization and punctuality",
+        "Self-learning ability",
+        "Ability to learn new things"
+      ]
+    }
+  },
+  "TITLE": {
+    "HOME": "Home | Beatriz Ontivero",
+    "ABOUT": "About | Beatriz Ontivero",
+    "EXPERIENCE": "Experience | Beatriz Ontivero",
+    "PROJECTS": "Projects | Beatriz Ontivero",
+    "CERTIFICATIONS": "Certifications | Beatriz Ontivero",
+    "SKILLS": "Skills | Beatriz Ontivero",
+    "CONTACT": "Contact | Beatriz Ontivero"
+  }
+}

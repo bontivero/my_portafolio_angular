@@ -1,0 +1,40 @@
+<section class="section">
+  <div class="container">
+    <h1 class="title">{{ 'CERTIFICATIONS.TITLE' | translate }}</h1>
+
+    <owl-carousel-o
+      class="cert-carousel"
+      [options]="carouselOptions"
+      *ngIf="certifications$ | async as certList"
+    >
+      <ng-template carouselSlide *ngFor="let cert of certList">
+        <article class="box has-text-centered cert-card">
+          <span class="icon is-large has-text-primary">
+            <i class="fa-2x" [ngClass]="cert.iconClass || 'fa-solid fa-certificate'"></i>
+          </span>
+          <p class="title is-6 mt-3">{{ cert.name }}</p>
+          <p class="is-size-7">{{ 'CERTIFICATIONS.ISSUED_BY' | translate }}: {{ cert.issuer }}</p>
+          <p class="is-size-7 has-text-grey">{{ cert.date }}</p>
+          <p class="is-size-7 has-text-grey" *ngIf="cert.mode">{{ cert.mode }}</p>
+          <a
+            *ngIf="cert.url"
+            class="button is-small is-light mt-3"
+            [href]="cert.url"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ 'CERTIFICATIONS.VIEW' | translate }}
+          </a>
+        </article>
+      </ng-template>
+    </owl-carousel-o>
+
+    <div class="mt-6" *ngIf="awards$ | async as awards">
+      <h2 class="subtitle is-4">{{ 'CERTIFICATIONS.AWARDS' | translate }}</h2>
+      <div class="box award-card" *ngFor="let award of awards">
+        <p class="is-size-7 has-text-grey">{{ award.date }} · {{ award.issuer }}</p>
+        <p class="has-text-weight-semibold">{{ award.title }}</p>
+      </div>
+    </div>
+  </div>
+</section>

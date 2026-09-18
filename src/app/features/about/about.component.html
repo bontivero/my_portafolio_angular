@@ -1,0 +1,40 @@
+<section class="section" *ngIf="personalInfo$ | async as info">
+  <div class="container">
+    <h1 class="title">{{ 'ABOUT.TITLE' | translate }}</h1>
+
+    <div class="columns is-vcentered">
+      <div class="column is-3 has-text-centered">
+        <figure class="image is-192x192 is-inline-block">
+          <img
+            class="is-rounded"
+            [src]="info.photoUrl"
+            [attr.alt]="'ABOUT.PROFILE_ALT' | translate"
+          />
+        </figure>
+      </div>
+      <div class="column">
+        <p class="mb-4">{{ info.summary }}</p>
+
+        <div class="tags">
+          <span class="tag is-info"
+            >{{ 'ABOUT.NATIONALITY' | translate }}: {{ info.nationality }}</span
+          >
+        </div>
+
+        <p class="mt-3">
+          <strong>{{ 'ABOUT.LANGUAGES' | translate }}:</strong>
+          {{ 'ABOUT.SPANISH_NATIVE' | translate }} · {{ 'ABOUT.ENGLISH_LEVEL' | translate }}
+        </p>
+      </div>
+    </div>
+
+    <div *ngIf="education$ | async as eduList" class="mt-5">
+      <h2 class="subtitle">{{ 'ABOUT.EDUCATION' | translate }}</h2>
+      <div class="box" *ngFor="let edu of eduList">
+        <p class="has-text-weight-bold">{{ edu.degree }}</p>
+        <p>{{ edu.institution }} — {{ edu.location }}</p>
+        <p class="is-size-7">{{ edu.startDate }} – {{ edu.endDate }}</p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,56 @@
+{
+  "name": "beatriz-ontivero-portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "build:pages": "ng build --configuration production",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "typecheck": "tsc -p tsconfig.app.json --noEmit",
+    "lint": "eslint . --max-warnings=0",
+    "format": "prettier --write \"src/**/*.{ts,html,scss}\" \"angular.json\" \"package.json\" \"eslint.config.js\" \"README.md\" \".github/workflows/*.yml\" \"compose.yaml\"",
+    "format:check": "prettier --check \"src/**/*.{ts,html,scss}\" \"angular.json\" \"package.json\" \"eslint.config.js\" \"README.md\" \".github/workflows/*.yml\" \"compose.yaml\""
+  },
+  "private": true,
+  "packageManager": "npm@10.9.3",
+  "dependencies": {
+    "@angular/common": "^20.0.0",
+    "@angular/compiler": "^20.0.0",
+    "@angular/core": "^20.0.0",
+    "@angular/forms": "^20.0.0",
+    "@angular/platform-browser": "^20.0.0",
+    "@angular/router": "^20.0.0",
+    "@ngx-translate/core": "^15.0.0",
+    "@ngx-translate/http-loader": "^8.0.0",
+    "@tsparticles/angular": "^3.0.0",
+    "@tsparticles/engine": "^3.0.0",
+    "@tsparticles/slim": "^3.0.0",
+    "bulma": "^1.0.4",
+    "ngx-owl-carousel-o": "^20.0.1",
+    "ngx-spinner": "^21.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "^0.15.0",
+    "@angular/animations": "^20.3.27"
+  },
+  "devDependencies": {
+    "@angular/build": "^20.0.0",
+    "@angular/cli": "^20.0.0",
+    "@angular/compiler-cli": "^20.0.0",
+    "jsdom": "^28.0.0",
+    "prettier": "^3.8.1",
+    "typescript": "~5.9.2",
+    "vitest": "^3.2.4",
+    "eslint": "^9.39.1",
+    "@eslint/js": "^9.39.1",
+    "angular-eslint": "^20.7.0",
+    "typescript-eslint": "^8.44.0"
+  },
+  "description": "Professional portfolio of Beatriz Ontivero González, software engineer and full-stack developer.",
+  "engines": {
+    "node": ">=20.19.0 <23",
+    "npm": ">=10.8.0"
+  }
+}

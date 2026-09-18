@@ -1,0 +1,13 @@
+<footer class="footer" *ngIf="personalInfo$ | async as info">
+  <div class="content has-text-centered">
+    <p>
+      <a [href]="'mailto:' + info.email"><i class="fa-solid fa-envelope"></i> {{ info.email }}</a>
+      &nbsp;|&nbsp;
+      <a [href]="'https://linkedin.com/in/' + info.linkedin" target="_blank" rel="noopener">
+        <i class="fa-brands fa-linkedin"></i> LinkedIn
+      </a>
+    </p>
+    <p>&copy; {{ currentYear }} {{ info.fullName }} — {{ 'FOOTER.RIGHTS' | translate }}</p>
+    <p class="is-size-7">{{ 'FOOTER.MADE_WITH' | translate }}</p>
+  </div>
+</footer>

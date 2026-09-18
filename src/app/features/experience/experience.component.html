@@ -1,0 +1,24 @@
+<section class="section">
+  <div class="container">
+    <h1 class="title">{{ 'EXPERIENCE.TITLE' | translate }}</h1>
+
+    <div class="timeline" *ngIf="experience$ | async as expList">
+      <div class="box mb-4" *ngFor="let exp of expList">
+        <div class="level">
+          <div class="level-left">
+            <div>
+              <p class="title is-5">{{ exp.position }}</p>
+              <p class="subtitle is-6">{{ exp.company }} · {{ exp.location }}</p>
+            </div>
+          </div>
+          <div class="level-right">
+            <span class="tag is-primary is-light">{{ exp.startDate }} – {{ exp.endDate }}</span>
+          </div>
+        </div>
+        <ul>
+          <li *ngFor="let task of exp.tasks">{{ task }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

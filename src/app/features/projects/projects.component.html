@@ -1,0 +1,45 @@
+<section class="section">
+  <div class="container">
+    <h1 class="title">{{ 'PROJECTS.TITLE' | translate }}</h1>
+
+    <owl-carousel-o
+      class="projects-carousel"
+      [options]="carouselOptions"
+      *ngIf="projects$ | async as projectList"
+    >
+      <ng-template carouselSlide *ngFor="let project of projectList">
+        <article class="card project-card">
+          <div class="card-image" *ngIf="project.imageUrl">
+            <figure class="image is-16by9">
+              <img [src]="project.imageUrl" [alt]="project.title" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <p class="title is-5">{{ project.title }}</p>
+            <p class="content">{{ project.description }}</p>
+
+            <div class="tags">
+              <span class="tag is-info is-light" *ngFor="let tech of project.technologies">{{
+                tech
+              }}</span>
+            </div>
+
+            <p class="has-text-primary has-text-weight-bold highlight" *ngIf="project.highlight">
+              {{ project.highlight }}
+            </p>
+
+            <a
+              *ngIf="project.url"
+              class="button is-small is-light mt-3 project-link"
+              [href]="project.url"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ 'PROJECTS.VIEW_CODE' | translate }}
+            </a>
+          </div>
+        </article>
+      </ng-template>
+    </owl-carousel-o>
+  </div>
+</section>

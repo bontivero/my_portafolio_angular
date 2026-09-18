@@ -1,0 +1,234 @@
+{
+  "NAV": {
+    "HOME": "Inicio",
+    "ABOUT": "Sobre mí",
+    "EXPERIENCE": "Experiencia",
+    "PROJECTS": "Proyectos",
+    "CERTIFICATIONS": "Certificaciones",
+    "SKILLS": "Habilidades",
+    "CONTACT": "Contacto",
+    "MENU": "Menú"
+  },
+  "HOME": {
+    "GREETING": "Hola, soy",
+    "SUBTITLE": "8 años transformando datos y procesos en soluciones robustas",
+    "CTA_PROJECTS": "Ver proyectos",
+    "CTA_CONTACT": "Contactar",
+    "EXPERIENCE": "años de experiencia"
+  },
+  "ABOUT": {
+    "TITLE": "Sobre mí",
+    "NATIONALITY": "Nacionalidad",
+    "LOCATION": "Ubicación",
+    "LANGUAGES": "Idiomas",
+    "SPANISH_NATIVE": "Español (Nativo)",
+    "ENGLISH_LEVEL": "Inglés (B2)",
+    "EDUCATION": "Formación académica",
+    "PROFILE_ALT": "Foto de perfil"
+  },
+  "EXPERIENCE": {
+    "TITLE": "Experiencia laboral",
+    "PRESENT": "Actualidad"
+  },
+  "PROJECTS": {
+    "TITLE": "Proyectos destacados",
+    "TECHNOLOGIES": "Tecnologías",
+    "VIEW_CODE": "Ver proyecto"
+  },
+  "CERTIFICATIONS": {
+    "TITLE": "Certificaciones y formación",
+    "ISSUED_BY": "Emitido por",
+    "VIEW": "Ver certificado",
+    "AWARDS": "Premios y distinciones"
+  },
+  "SKILLS": {
+    "TITLE": "Habilidades técnicas"
+  },
+  "CONTACT": {
+    "TITLE": "Contacto",
+    "EMAIL": "Correo electrónico",
+    "PHONE": "Teléfono",
+    "LINKEDIN": "LinkedIn",
+    "ADDRESS": "Dirección",
+    "FORM_NAME": "Nombre",
+    "FORM_EMAIL": "Tu correo",
+    "FORM_MESSAGE": "Mensaje",
+    "FORM_SEND": "Enviar mensaje",
+    "REQUIRED": "Este campo es obligatorio.",
+    "INVALID_EMAIL": "Introduce un correo válido.",
+    "MAIL_SUBJECT": "Contacto desde el portfolio",
+    "MAIL_NAME": "Nombre",
+    "MAIL_EMAIL": "Correo"
+  },
+  "FOOTER": {
+    "RIGHTS": "Todos los derechos reservados.",
+    "MADE_WITH": "Hecho con Angular y Bulma"
+  },
+  "APP": {
+    "LOADING": "Cargando..."
+  },
+  "DATA": {
+    "PERSONAL": {
+      "JOB_TITLE": "Ingeniera / Desarrolladora",
+      "ADDRESS": "Madrid, España",
+      "NATIONALITY": "Cubana · residencia y permiso de trabajo en España",
+      "SUMMARY": "Ingeniera/Desarrolladora con 8 años de experiencia profesional, especializada en desarrollo full stack e ingeniería de datos. Dominio avanzado de Python (Django, FastAPI) y Java, con experiencia en desarrollo web, ERP (Odoo), aplicaciones desktop y frontend con Angular. Sólido perfil en bases de datos relacionales (Oracle, PostgreSQL, SQLite), automatización con Bash/PL/SQL, orquestación con Docker y control de versiones con Git/GitHub, manejando con total soltura entornos Linux y Windows. Complemento mi trayectoria profesional con proyectos extralaborales que refuerzan mi perfil en Big Data y MLOps: desarrollo de clasificadores y pipelines con PySpark/Spark MLlib, gestión del ciclo de vida de modelos con MLflow, despliegue de APIs predictivas con FastAPI y automatización de integración continua con GitHub Actions."
+    },
+    "EXPERIENCE": [
+      {
+        "position": "Especialista Principal B en Ciencias Informáticas",
+        "company": "Departamento de Desarrollo y Arquitectura, ETECSA",
+        "location": "La Habana, Cuba",
+        "tasks": [
+          "Liderazgo y orientación de un equipo de especialistas de desarrollo.",
+          "Diseño, desarrollo e implementación de procesos ETL complejos para integrar datos de múltiples fuentes.",
+          "Utilización de PL/SQL para procedimientos almacenados, funciones y scripts de automatización de procesos ETL.",
+          "Diseño e implementación de mejoras en procesos ETL para garantizar la precisión y eficiencia de los datos.",
+          "Desarrollo de scripts avanzados en Python y Bash para interpretar y modificar ficheros binarios hexadecimales y realizar limpiezas profundas, automáticas, eficientes y configurables.",
+          "Desarrollo de un sistema para gestionar un mediador utilizando Django, FastAPI, Nginx y JavaScript.",
+          "Estudio e implementación de optimización y migración de bases de datos de Oracle a PostgreSQL.",
+          "Planificación e implementación de un plan de optimización del flujo de mediación y de una base de datos Oracle.",
+          "Desarrollo de scripts Bash para obtener información y generar reportes de CDRs con grandes volúmenes de datos.",
+          "Soporte de Nivel 3: consultoría y resolución de incidencias complejas que Nivel 2 no podía resolver."
+        ]
+      },
+      {
+        "position": "Especialista Principal B en Ciencias Informáticas",
+        "company": "Departamento de Gestión para Plataformas, ETECSA",
+        "location": "La Habana, Cuba",
+        "tasks": [
+          "Liderazgo y orientación de un equipo de especialistas con múltiples funciones.",
+          "Desarrollo de procesos ETL en PL/SQL y scripts en Python para interpretar y modificar ficheros binarios hexadecimales.",
+          "Desarrollo de un sistema para gestionar un mediador utilizando Django, FastAPI, Nginx y JavaScript.",
+          "Gestión de tickets y elaboración y análisis de estadísticas de tráfico.",
+          "Diseño, desarrollo e implementación de procesos ETL complejos para integrar datos de múltiples fuentes.",
+          "Mantenimiento y mejora de procesos ETL para garantizar la precisión y eficiencia de los datos.",
+          "Troubleshooting y resolución de problemas.",
+          "Colaboración con equipos de desarrollo y operaciones para integrar los procesos ETL en el ecosistema de TI."
+        ]
+      },
+      {
+        "position": "Especialista B en Ciencias Informáticas",
+        "company": "Departamento de Gestión para Plataformas, ETECSA",
+        "location": "La Habana, Cuba",
+        "tasks": [
+          "Diseño, desarrollo e implementación de procesos ETL complejos para integrar datos de múltiples fuentes.",
+          "Desarrollo de procedimientos almacenados, funciones y scripts PL/SQL para automatizar tareas ETL.",
+          "Mantenimiento y mejora de procesos ETL para garantizar la precisión y eficiencia de los datos.",
+          "Gestión de plataformas de soporte al negocio.",
+          "Troubleshooting para la búsqueda y resolución de problemas.",
+          "Soporte de Nivel 2: gestión de tickets, elaboración y análisis de estadísticas de tráfico y resolución de incidencias."
+        ]
+      },
+      {
+        "position": "Especialista B en Ciencias Informáticas",
+        "company": "Dirección Nacional de la ACRC",
+        "location": "La Habana, Cuba",
+        "tasks": [
+          "Administración de red y sistemas: Debian GNU/Linux, Windows, Windows Server, DHCP, DNS, Squid, Zimbra, Openfire, Kerio Control, PFSense, Active Directory y Proxmox.",
+          "Análisis de logs con SquidAnalyzer y ELK (Elasticsearch, Logstash, Kibana).",
+          "Gestión de salvas con FreeBSD y Proxmox Backup Server.",
+          "Webmaster del sitio web de la entidad con Drupal y gestión de redes sociales.",
+          "Administración del sistema contable financiero ETES y participación en seguridad informática, incluido el Plan de Seguridad Informática.",
+          "Desarrollo de sistemas de escritorio con Java/NetBeans y Python, y desarrollo web con Django.",
+          "Gestión de bases de datos con SQLite y PostgreSQL y desarrollo de aplicaciones Android."
+        ]
+      }
+    ],
+    "EDUCATION": [
+      {
+        "degree": "Ingeniería en Ciencias Informáticas",
+        "institution": "Universidad de las Ciencias Informáticas (UCI)",
+        "location": "La Habana, Cuba"
+      }
+    ],
+    "CERTIFICATIONS": [
+      {
+        "name": "Programación en Python Básico",
+        "issuer": "DESOFT",
+        "mode": "Basado en proyectos"
+      },
+      {
+        "name": "Creación de Sitios Web con Django",
+        "issuer": "DESOFT",
+        "mode": "Basado en proyectos"
+      },
+      {
+        "name": "Nivel 3: Sistemas Gestores de Bases de Datos",
+        "issuer": "FUNDAE",
+        "mode": "En línea"
+      },
+      {
+        "name": "Nivel 3: Metodologías ágiles",
+        "issuer": "FUNDAE",
+        "mode": "En línea"
+      }
+    ],
+    "PROJECTS": [
+      {
+        "title": "Portafolio Personal",
+        "description": "Sitio web personal para mostrar proyectos y experiencia profesional, con autenticación, base de datos en tiempo real y hosting con Firebase. Diseño responsive y optimización de rendimiento con Angular.",
+        "highlight": "Portfolio web responsive"
+      },
+      {
+        "title": "Clasificador de Flores Iris",
+        "description": "Clasificador de flores Iris con PySpark MLlib mediante Regresión Logística. Incluye una API REST con FastAPI para predicciones en tiempo real y gestión del ciclo de vida del modelo con MLflow.",
+        "highlight": "CI/CD automatizado"
+      },
+      {
+        "title": "Módulo Odoo para Microcervecería Artesanal",
+        "description": "Módulo Odoo para gestionar una microcervecería, extendiendo MRP, Inventario, Ventas, POS, eCommerce, CRM y Contabilidad. Incluye recetas, lotes, tanques de fermentación y control de calidad.",
+        "highlight": "Trazabilidad integral del proceso"
+      },
+      {
+        "title": "Script de Limpieza de Ficheros Antiguos",
+        "description": "Script configurable para limpiar automáticamente ficheros antiguos mediante filtros por fecha, tipo de archivo y patrones de nombre, optimizado para Linux y Windows y grandes volúmenes de datos.",
+        "highlight": "Automatización configurable"
+      },
+      {
+        "title": "CDR Report Tool",
+        "description": "Herramienta para generar reportes de CDRs (Call Detail Records), procesar ficheros binarios hexadecimales e integrar datos de múltiples fuentes mediante procesos ETL.",
+        "highlight": "Procesamiento de grandes volúmenes"
+      }
+    ],
+    "AWARDS": [
+      {
+        "title": "Diploma de Aprovechamiento en el curso Nivel 3: Sistemas gestores de bases de datos"
+      },
+      {
+        "title": "Reconocimiento Destacado(a) por la actitud y desempeño durante el año 2024"
+      },
+      {
+        "title": "Diploma por haber resultado Trabajador Destacado en la Dirección de Plataformas de Soporte al Negocio en el año 2023"
+      },
+      {
+        "title": "Reconocimiento por el aporte y dedicación a la puesta en marcha del proyecto vIMS"
+      }
+    ],
+    "SKILLS": {
+      "BACKEND": "Backend y lenguajes",
+      "FRONTEND": "Frontend",
+      "DATA": "Datos y Big Data",
+      "DEVOPS": "DevOps, herramientas e infraestructura",
+      "ERP": "ERP y otros",
+      "PROFESSIONAL": "Competencias profesionales",
+      "PROFESSIONAL_ITEMS": [
+        "Trabajo en equipo",
+        "Liderazgo de equipos de desarrollo",
+        "Responsabilidad",
+        "Organización y puntualidad",
+        "Capacidad de autoaprendizaje",
+        "Capacidad para aprender cosas nuevas"
+      ]
+    }
+  },
+  "TITLE": {
+    "HOME": "Inicio | Beatriz Ontivero",
+    "ABOUT": "Sobre mí | Beatriz Ontivero",
+    "EXPERIENCE": "Experiencia | Beatriz Ontivero",
+    "PROJECTS": "Proyectos | Beatriz Ontivero",
+    "CERTIFICATIONS": "Certificaciones | Beatriz Ontivero",
+    "SKILLS": "Habilidades | Beatriz Ontivero",
+    "CONTACT": "Contacto | Beatriz Ontivero"
+  }
+}

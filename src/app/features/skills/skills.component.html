@@ -1,0 +1,16 @@
+<section class="section">
+  <div class="container">
+    <h1 class="title">{{ 'SKILLS.TITLE' | translate }}</h1>
+
+    <div class="columns is-multiline" *ngIf="skills$ | async as categories">
+      <div class="column is-6" *ngFor="let cat of categories">
+        <div class="box">
+          <p class="title is-5">{{ cat.category }}</p>
+          <div class="tags">
+            <span class="tag is-primary is-light" *ngFor="let item of cat.items">{{ item }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

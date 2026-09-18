@@ -1,0 +1,104 @@
+<section class="section" *ngIf="personalInfo$ | async as info">
+  <div class="container">
+    <h1 class="title">{{ 'CONTACT.TITLE' | translate }}</h1>
+
+    <div class="columns">
+      <div class="column is-5">
+        <p class="mb-3">
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          <strong> {{ 'CONTACT.EMAIL' | translate }}:</strong>
+          <a [href]="'mailto:' + info.email"> {{ info.email }}</a>
+        </p>
+        <p class="mb-3">
+          <i class="fa-solid fa-phone" aria-hidden="true"></i>
+          <strong> {{ 'CONTACT.PHONE' | translate }}:</strong>
+          <a [href]="'tel:' + info.phone"> {{ info.phone }}</a>
+        </p>
+        <p class="mb-3">
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          <strong> {{ 'CONTACT.LINKEDIN' | translate }}:</strong>
+          <a
+            [href]="'https://www.linkedin.com/in/' + info.linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {{ info.linkedin }}
+          </a>
+        </p>
+        <p class="mb-3">
+          <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          <strong> {{ 'CONTACT.ADDRESS' | translate }}:</strong>
+          {{ info.address }}
+        </p>
+      </div>
+
+      <div class="column is-7">
+        <form [formGroup]="contactForm" (ngSubmit)="submit()" novalidate>
+          <div class="field">
+            <label class="label" for="contact-name">{{ 'CONTACT.FORM_NAME' | translate }}</label>
+            <div class="control">
+              <input
+                id="contact-name"
+                class="input"
+                type="text"
+                formControlName="name"
+                autocomplete="name"
+              />
+            </div>
+            <p
+              class="help is-danger"
+              *ngIf="contactForm.controls.name.touched && contactForm.controls.name.invalid"
+            >
+              {{ 'CONTACT.REQUIRED' | translate }}
+            </p>
+          </div>
+
+          <div class="field">
+            <label class="label" for="contact-email">{{ 'CONTACT.FORM_EMAIL' | translate }}</label>
+            <div class="control">
+              <input
+                id="contact-email"
+                class="input"
+                type="email"
+                formControlName="email"
+                autocomplete="email"
+                [placeholder]="'CONTACT.FORM_EMAIL' | translate"
+              />
+            </div>
+            <p
+              class="help is-danger"
+              *ngIf="contactForm.controls.email.touched && contactForm.controls.email.invalid"
+            >
+              {{ 'CONTACT.INVALID_EMAIL' | translate }}
+            </p>
+          </div>
+
+          <div class="field">
+            <label class="label" for="contact-message">{{
+              'CONTACT.FORM_MESSAGE' | translate
+            }}</label>
+            <div class="control">
+              <textarea
+                id="contact-message"
+                class="textarea"
+                formControlName="message"
+                rows="6"
+                [placeholder]="'CONTACT.FORM_MESSAGE' | translate"
+              ></textarea>
+            </div>
+            <p
+              class="help is-danger"
+              *ngIf="contactForm.controls.message.touched && contactForm.controls.message.invalid"
+            >
+              {{ 'CONTACT.REQUIRED' | translate }}
+            </p>
+          </div>
+
+          <button class="button is-primary" type="submit">
+            {{ 'CONTACT.FORM_SEND' | translate }}
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

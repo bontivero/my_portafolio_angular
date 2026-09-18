@@ -1,0 +1,27 @@
+<section class="hero is-fullheight home-hero" *ngIf="personalInfo$ | async as info">
+  <ngx-particles
+    id="tsparticles"
+    [options]="particlesOptions"
+    class="particles-background"
+  ></ngx-particles>
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <p class="is-size-5">{{ 'HOME.GREETING' | translate }}</p>
+      <h1 class="title is-1">{{ info.fullName }}</h1>
+      <h2 class="subtitle is-4">
+        {{ info.jobTitle }} · {{ info.yearsOfExperience }} {{ 'HOME.EXPERIENCE' | translate }}
+      </h2>
+      <p class="is-size-6 mb-5">{{ 'HOME.SUBTITLE' | translate }}</p>
+
+      <div class="buttons is-centered">
+        <a class="button is-primary is-medium" routerLink="/projects">
+          {{ 'HOME.CTA_PROJECTS' | translate }}
+        </a>
+        <a class="button is-primary is-medium" routerLink="/contact">
+          {{ 'HOME.CTA_CONTACT' | translate }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
